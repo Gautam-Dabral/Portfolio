@@ -2,7 +2,7 @@
   "name": "gaming-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gautam-dabral.github.io/portfolio/",
+  "homepage": "https://Gautam-Dabral.github.io/Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
