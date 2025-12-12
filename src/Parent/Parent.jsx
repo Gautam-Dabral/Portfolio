@@ -5,11 +5,14 @@ import { Outlet } from 'react-router-dom'
 
 const Parent = () => {
   return (
-    <div>
-        <Header/>
-        <Outlet/>
-        <Footer/>
+    <div className='bg-black min-h-screen flex flex-col border-4 border-red-500 overflow-hidden'>
+       <Header/>
+       <div className='flex h-screen'>
+          <Outlet/>
+       </div>
+       <Footer/>
     </div>
   )
 }
+
 export default Parent
